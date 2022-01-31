@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DigitalBusinessCard/static/css/main.08420305.css",
-    "main.js": "/DigitalBusinessCard/static/js/main.aa8fbb4f.js",
-    "static/media/otavieSmilesNoBack.png": "/DigitalBusinessCard/static/media/otavieSmilesNoBack.6fc59393a0c8f907cfe8.png",
+    "main.js": "/DigitalBusinessCard/static/js/main.6f24710c.js",
+    "static/media/otavieSmilesNoBack.png": "/DigitalBusinessCard/static/media/otavieSmilesNoBack.681e220fc3b9b5c7488b.png",
     "index.html": "/DigitalBusinessCard/index.html",
     "main.08420305.css.map": "/DigitalBusinessCard/static/css/main.08420305.css.map",
-    "main.aa8fbb4f.js.map": "/DigitalBusinessCard/static/js/main.aa8fbb4f.js.map"
+    "main.6f24710c.js.map": "/DigitalBusinessCard/static/js/main.6f24710c.js.map"
   },
   "entrypoints": [
     "static/css/main.08420305.css",
-    "static/js/main.aa8fbb4f.js"
+    "static/js/main.6f24710c.js"
   ]
 }
