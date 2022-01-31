@@ -1,0 +1,169 @@
+/*
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+#wrapper{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #DBE3EC;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+}
+
+.innerBox{
+  margin: 0 auto;
+  display: flex;
+  height: 340px;
+  width: 540px;
+  background-color: #DBE3EC;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.theBox{
+  margin: 0 auto;
+  display: flex;
+  height: 460px;
+  width: 600px;
+  background-color: #23252C;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.rightIcon{
+  height: 340px;
+  background-color: #22599B;
+  width: 50px;
+  border-radius: 0 10px 10px 0;
+}
+
+.logoSize{
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  transition: all ease-in 400ms;
+}
+
+.logoSize:hover{
+  height: 35px;
+  width: 35px;
+}
+
+.rightIcon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightInfo{
+  display: flex;
+  justify-content: space-between;
+  width: calc(50% + 50px);
+}
+
+.rightContent{
+  padding: 20px;
+}
+
+.leftInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+}
+
+.otas{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  filter: drop-shadow(0px 4px 200px rgba(0, 0, 0, 0.3));
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
+  transition: all cubic-bezier(.1,-1.25,.79,2.2) 650ms;
+  cursor: pointer;
+}
+
+.otas:hover{
+  height: 160px;
+  width: 160px;
+  border-radius: 80px;
+  
+}
+
+.alignText{
+  text-align: center;
+}
+
+h1.name{
+  margin-top: -10px;
+  font-size: 27px;
+  font-family: 'Oxanium', cursive;
+}
+
+h3.job{
+  color: #4E4113;
+  font-size: 14px;
+}
+
+h4.website{
+  font-size: 12px;
+  color: #044C6B;
+  text-shadow: 0px 0px 1px #fff;
+  font-weight: 500;
+  transition: all cubic-bezier(0,.83,.63,.06) 300ms;
+  cursor: pointer;
+}
+
+h4.website:hover{
+  color: black;
+}
+
+h3.job, h4.website{
+  padding-top: 5px;
+}
+
+.about > h1, .skills > h1{
+  color:#044C6B;
+  font-size: 26px;
+  font-family: 'Oxanium', cursive;
+  margin-left: calc(100% - 70px);
+}
+
+.skills > h1{
+  margin-top: 12px;
+}
+
+.aboutContent > p, .skillList > li{
+  line-height: 22px;
+  font-size: 13px;
+}
+
+p{
+  margin-top: 6px;
+}
